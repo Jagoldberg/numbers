@@ -3,7 +3,7 @@
 #Jackson Goldberg
 echo "Enter a positive integer: "
 read val
-$N = 1
+N=1
 while $N -le $val
 do
 	if [$((N%2)) -eq 0]
